@@ -1,0 +1,28 @@
+{
+  "name": "amazon_product_scraping",
+  "version": "1.0.0",
+  "description": "Amazon product details scrapping.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "mudit srivastava",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "fs": "^0.0.1-security",
+    "nodemon": "^3.0.1",
+    "puppeteer": "^21.4.1",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/muditsrivast/Scrapping-Amazon.git"
+  },
+  "bugs": {
+    "url": "https://github.com/muditsrivast/Scrapping-Amazon/issues"
+  },
+  "homepage": "https://github.com/muditsrivast/Scrapping-Amazon#readme"
+}
